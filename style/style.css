@@ -239,14 +239,6 @@ a{
     align-items: center;
 }
 
-.brands__list img{
-    padding: 55px 23px;
-    border: 2px solid #C4C4C4;
-    display: block;
-    width: 255px;
-    height: 135px;
-}
-
 .sketch__left-title{
     font-family: 'rr';
     font-size: 40px;
@@ -320,4 +312,19 @@ a{
     justify-content: center;
     align-items: center;
     gap: 30px;
+}
+
+.carusel__img{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    border: 2px solid #C4C4C4;
+    width: 255px;
+    height: 135px;
+    margin: 0 auto;
+}
+
+.carousel__img img {
+    max-width: 100%;  
+    max-height: 100%; 
 }
